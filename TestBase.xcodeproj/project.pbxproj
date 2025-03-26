@@ -625,6 +625,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		045732B82D93DBA100ECAEA3 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		045732B92D93DBC500ECAEA3 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		0458BD0E2D929F8000F6EDAD /* TestBase */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TestBase;
@@ -670,6 +680,8 @@
 		0458BD032D929F8000F6EDAD = {
 			isa = PBXGroup;
 			children = (
+				045732B92D93DBC500ECAEA3 /* ViewModels */,
+				045732B82D93DBA100ECAEA3 /* Views */,
 				0458BD0E2D929F8000F6EDAD /* TestBase */,
 				0458BD202D92A29200F6EDAD /* Frameworks */,
 				0458BD0D2D929F8000F6EDAD /* Products */,
@@ -1294,6 +1306,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				045732B82D93DBA100ECAEA3 /* Views */,
+				045732B92D93DBC500ECAEA3 /* ViewModels */,
 				0458BD0E2D929F8000F6EDAD /* TestBase */,
 			);
 			name = TestBase;
